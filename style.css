@@ -162,4 +162,21 @@ main {
   color: blue;
 }
 
-
+@media (max-width: 768px) {
+  header {
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+  aside {
+    width: 100%;
+    padding-top: 0px;
+  }
+  aside .avatar img {
+    width: 100px;
+    height: 100px;
+  }
+  .contain{
+    margin-top: 45px;
+    margin-left: 35px;
+  }
+} 
